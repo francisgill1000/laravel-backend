@@ -2,7 +2,7 @@
 
 sudo apt update && sudo apt upgrade -y
 
-sudo apt install php-cli php-mbstring php-xml composer php-curl php-zip php-bcmath php-tokenizer sqlite3 php-sqlite3 nginx -y
+sudo apt install php-cli php8.3-fpm  php-mbstring php-xml composer php-curl php-zip php-bcmath php-tokenizer sqlite3 php-sqlite3 nginx -y
 
 cd /etc/nginx/sites-available
 
